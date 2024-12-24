@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <name>All The Warhammer Permits</name>
+
+    <author>Seanbeag</author>
+
+    <supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	
+	<modVersion>1.0</modVersion>
+	
+	<packageId>Seanbeag.Allthe40kpermits</packageId>
+
+    <description>New permits to make it a lot more worthwhile and appealing to side with the Imperium and work your way up the ranks.
+
+This is not compatible with the new Vanilla Extended Empire mod. If you want a more in-depth Empire experience, I suggest you give that a go. This mod only changes the permits and titles
+
+	</description>
+	
+	<modDependencies>
+		<li>
+			<packageId>Phonicmas.40kFactions</packageId>
+			<displayName>Warhammer 40.000 - Factions</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3025493153</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+
+	<loadAfter>
+	<li>Phonicmas.40kFactions</li>
+	</loadAfter>
+	
+</ModMetaData>

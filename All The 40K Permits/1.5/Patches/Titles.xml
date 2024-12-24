@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	
+    <Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RoyalTitleDef[defName="BEWH_Title1"]</xpath>
+		<value>
+			<permitPointsAwarded>1</permitPointsAwarded>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RoyalTitleDef[defName="BEWH_Title2"]</xpath>
+		<value>
+			<permitPointsAwarded>1</permitPointsAwarded>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RoyalTitleDef[defName="BEWH_Title3"]/permitPointsAwarded</xpath>
+		<value>
+			<permitPointsAwarded>1</permitPointsAwarded>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RoyalTitleDef[defName="BEWH_Title4"]/permitPointsAwarded</xpath>
+		<value>
+			<permitPointsAwarded>2</permitPointsAwarded>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RoyalTitleDef[defName="BEWH_Title5"]/permitPointsAwarded</xpath>
+		<value>
+			<permitPointsAwarded>2</permitPointsAwarded>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RoyalTitleDef[defName="BEWH_Title6"]/permitPointsAwarded</xpath>
+		<value>
+			<permitPointsAwarded>2</permitPointsAwarded>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RoyalTitleDef[defName="BEWH_Title7"]/permitPointsAwarded</xpath>
+		<value>
+			<permitPointsAwarded>3</permitPointsAwarded>
+		</value>
+	</Operation>
+
+</Patch>

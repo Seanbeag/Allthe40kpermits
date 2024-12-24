@@ -1,0 +1,178 @@
+<Defs>
+
+<RoyalTitlePermitDef ParentName="BEWH_DropResourcesBase">
+    <defName>BEWHMealSimpleDrop</defName>
+    <label>simple meal drop</label>
+    <description>Call for a drop of 20 Simple Meals</description>
+    <minTitle>BEWH_Title2</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>6</permitPointCost>
+    <uiPosition>(0,2)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MealSimple>20</MealSimple>
+      </itemsToDrop>
+      <favorCost>2</favorCost>
+    </royalAid>
+    <cooldownDays>10</cooldownDays>
+  </RoyalTitlePermitDef>
+  
+<RoyalTitlePermitDef ParentName="BEWH_DropResourcesBase">
+    <defName>BEWHMealFineDrop</defName>
+    <label>Fine meal drop</label>
+    <description>Call for a drop of 20 Fine Meals</description>
+    <minTitle>BEWH_Title3</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,2)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+		<MealFine>15</MealFine>
+      </itemsToDrop>
+      <favorCost>10</favorCost>
+    </royalAid>
+    <cooldownDays>20</cooldownDays>
+ </RoyalTitlePermitDef>
+
+<RoyalTitlePermitDef ParentName="BEWH_DropResourcesBase">
+    <defName>BEWHMealLavishDrop</defName>
+    <label>Lavish Meal drop</label>
+    <description>Call for a drop of 20 Lavish Meals</description>
+    <minTitle>BEWH_Title5</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(3,2)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+		<MealLavish>20</MealLavish>
+      </itemsToDrop>
+      <favorCost>14</favorCost>
+    </royalAid>
+    <cooldownDays>30</cooldownDays>
+ </RoyalTitlePermitDef>
+ 
+<RoyalTitlePermitDef ParentName="BEWH_DropResourcesBase">
+    <defName>BEWHMedicineIndDrop</defName>
+    <label>industrial medicine drop</label>
+    <description>Call for a drop of 20 industrial medicine</description>
+    <minTitle>BEWH_Title2</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MedicineIndustrial>10</MedicineIndustrial>
+      </itemsToDrop>
+      <favorCost>6</favorCost>
+    </royalAid>
+    <cooldownDays>20</cooldownDays>
+ </RoyalTitlePermitDef>
+ 
+<RoyalTitlePermitDef ParentName="BEWH_DropResourcesBase">
+    <defName>BEWHHealerDrop</defName>
+    <label>healer mech drop</label>
+    <description>Call for 1 healer mech serum</description>
+    <minTitle>BEWH_Title6</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(2,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MechSerumHealer>1</MechSerumHealer>
+      </itemsToDrop>
+      <favorCost>12</favorCost>
+    </royalAid>
+    <cooldownDays>45</cooldownDays>
+ </RoyalTitlePermitDef>
+ 
+<RoyalTitlePermitDef ParentName="BEWH_DropResourcesBase">
+    <defName>BEWHResurrectorDrop</defName>
+    <label>resurrector serum drop</label>
+    <description>Call for 1 Resurrector Mech Serum</description>
+    <minTitle>BEWH_Title7</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(3,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MechSerumResurrector>1</MechSerumResurrector>
+      </itemsToDrop>
+      <favorCost>14</favorCost>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+ </RoyalTitlePermitDef>
+ 
+<RoyalTitlePermitDef ParentName="BEWH_DropResourcesBase">
+    <defName>BEWHPlasteelDrop</defName>
+    <label>plasteel drop</label>
+    <description>Call for a drop of 300 Plasteel</description>
+    <minTitle>BEWH_Title5</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(2,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+		<Plasteel>300</Plasteel>
+      </itemsToDrop>
+      <favorCost>10</favorCost>
+    </royalAid>
+    <cooldownDays>20</cooldownDays>
+ </RoyalTitlePermitDef> 
+ 
+<RoyalTitlePermitDef ParentName="BEWH_DropResourcesBase">
+    <defName>BEWHGoldDrop</defName>
+    <label>gold drop</label>
+    <description>Call for a drop of 50 Gold 500 Silver</description>
+    <minTitle>BEWH_Title6</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(3,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Silver>500</Silver>
+		<Gold>50</Gold>
+      </itemsToDrop>
+      <favorCost>14</favorCost>
+    </royalAid>
+    <cooldownDays>30</cooldownDays>
+ </RoyalTitlePermitDef>
+ 
+<RoyalTitlePermitDef>
+    <defName>BEWH_CallTransportShuttle1</defName>
+    <label>call transport shuttle</label>
+    <description>Call a shuttle for your own use. It will transport colonists, items, and
+        animals anywhere you like within 70 world tiles.</description>
+    <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
+    <minTitle>BEWH_Title1</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>5</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <uiPosition>(1,6)</uiPosition>
+    <royalAid>
+        <favorCost>8</favorCost>
+        <targetingRange>44.9</targetingRange>
+        <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+ </RoyalTitlePermitDef>
+	
+<RoyalTitlePermitDef>
+    <defName>BEWH_CallTransportShuttle2</defName>
+    <label>call transport shuttle</label>
+    <description>Call a shuttle for your own use. It will transport colonists, items, and
+        animals anywhere you like within 70 world tiles.</description>
+    <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
+    <minTitle>BEWH_Title2</minTitle>
+    <faction>BEWH_ImperiumFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>5</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <uiPosition>(2,6)</uiPosition>
+    <royalAid>
+        <favorCost>8</favorCost>
+        <targetingRange>44.9</targetingRange>
+        <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+</RoyalTitlePermitDef>
+ 
+</Defs>

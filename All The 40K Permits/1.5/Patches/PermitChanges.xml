@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_FoodDrop"]/uiPosition</xpath>
+	<value>
+		<uiPosition>(2,2)</uiPosition>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_FoodDrop"]</xpath>
+	<value>
+		<cooldownDays>25</cooldownDays>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_GlitterMedDrop"]/uiPosition</xpath>
+	<value>
+		<uiPosition>(1,2)</uiPosition>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_GlitterMedDrop"]</xpath>
+	<value>
+		<cooldownDays>25</cooldownDays>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_CallTransportShuttle"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>5</cooldownDays>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_CallSpaceMarines"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>5</cooldownDays>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_CallPrimarisMarines"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>10</cooldownDays>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_CallCustodes"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>15</cooldownDays>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_CallLaborerTeam"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>10</cooldownDays>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_CallLaborerGang"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>20</cooldownDays>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_CallOrbitalBombardment"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>5</cooldownDays>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="BEWH_CallLocalExterminatus"]/cooldownDays</xpath>
+	<value>
+		<cooldownDays>10</cooldownDays>
+	</value>
+  </Operation>
+  
+  
+</Patch>
